@@ -30,6 +30,17 @@ Put your images on any container with the class `.keyburning` and in-line style 
 </div>
 ```
 
+TODO
+====
+We're on early dev! Pull requests are really welcome.
+* Get rid of that in-line style.
+* Pass dimensions, zoom and duration via JS function.
+* BUG: apparently random image flashes sometimes...
+* Add theme support.
+* Improve smoothness on slow animations & overall performance.
+* Correct README and other texts.
+* Write something like a license.
+
 Credits
 =======
 
