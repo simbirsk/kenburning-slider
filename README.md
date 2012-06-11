@@ -26,10 +26,10 @@ You should also include jQuery library by downloading it or by linking a CDN. It
 Put your images on any container with the class `.keyburning` and in-line style for the `height`. By the moment, `<img>` tags should be directly under the container, like this:
 ```
 <div class="keyburning" style="350px">
-  <img src="img/example-pics-001.jpg" alt="" />
-  <img src="img/example-pics-002.jpg" alt="" />
-  <img src="img/example-pics-003.jpg" alt="" />
-  <img src="img/example-pics-004.jpg" alt="" />
+  <img src="img/pic-001.jpg" alt="" />
+  <img src="img/pic-002.jpg" alt="" />
+  <img src="img/pic-003.jpg" alt="" />
+  <img src="img/pic-004.jpg" alt="" />
 </div>
 ```
 
