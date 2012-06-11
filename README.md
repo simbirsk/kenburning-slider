@@ -1,6 +1,6 @@
 KenBurning Slider
 =================
-A simple Ken Burns effect image slider.
+A simple Ken Burns effect image slider based on jQuery library.
 
 This plugin is under early development, there are lots of bugs in our TODO list ;)
 
@@ -17,6 +17,9 @@ Include JS just before `</body>` tag, like this:
 ```
 <script type="text/javascript" src="js/kenburning.js"></script>
 ```
+
+You should also include jQuery library by downloading it or by linking a CDN. It must be done anywhere before `kenburning.js` is included, like this:
+
 
 Put your images on any container with the class `.keyburning` and in-line style for the `height`. By the moment, `<img>` tags should be directly under the container, like this:
 ```
@@ -49,4 +52,4 @@ Sample images were taken from http://www.fotopedia.com under Attribution 2.0 Gen
 
 Thanks to the authors for their great job!
 
-By the way, Ken Burns is that guy -> http://en.wikipedia.org/wiki/Ken_burns
+By the way, Ken Burns is this guy -> http://en.wikipedia.org/wiki/Ken_burns
