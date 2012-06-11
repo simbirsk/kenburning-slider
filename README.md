@@ -31,8 +31,8 @@ Put your images on any container with the class `.keyburning` and in-line style 
 TODO
 ====
 We're on early dev! Pull requests are really welcome.
-* Get rid of that in-line style.
-* Pass dimensions, zoom and duration via JS function.
+* Get rid of that ugly in-line style.
+* Pass dimensions, zoom and duration via JS function (if desired).
 * BUG: apparently random image flashes sometimes...
 * Add theme support.
 * Improve smoothness on slow animations & overall performance.
