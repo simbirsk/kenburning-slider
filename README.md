@@ -1,4 +1,4 @@
-kenburning-slider
+KenBurning Slider
 =================
 
 A simple Ken Burns effect image slider
