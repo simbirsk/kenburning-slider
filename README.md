@@ -19,7 +19,9 @@ Include JS just before `</body>` tag, like this:
 ```
 
 You should also include jQuery library by downloading it or by linking a CDN. It must be done anywhere before `kenburning.js` is included, like this:
-
+```
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+```
 
 Put your images on any container with the class `.keyburning` and in-line style for the `height`. By the moment, `<img>` tags should be directly under the container, like this:
 ```
