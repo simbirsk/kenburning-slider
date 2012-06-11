@@ -31,10 +31,10 @@ Put your images on any container with the class `.keyburning` and in-line style 
 Credits
 =======
 
-Example images were got from http://www.fotopedia.com under Attribution 2.0 Generic (CC BY 2.0) license.
-"Fire Hose" O Lava by Erik Charlton (http://www.fotopedia.com/items/flickr-3451379907)
-Polar Star by wili_hybrid (http://www.fotopedia.com/items/flickr-3956249209)
-Coast Guard 47' Motor Lifeboat in Morro Bay, CA by mikebaird (http://www.fotopedia.com/items/flickr-2087879492)
-The Atlantic Ocean by milan.boers (http://www.fotopedia.com/items/flickr-3506659147)
+* Example images were got from http://www.fotopedia.com under Attribution 2.0 Generic (CC BY 2.0) license.
+* "Fire Hose" O Lava by Erik Charlton (http://www.fotopedia.com/items/flickr-3451379907)
+* Polar Star by wili_hybrid (http://www.fotopedia.com/items/flickr-3956249209)
+* Coast Guard 47' Motor Lifeboat in Morro Bay, CA by mikebaird (http://www.fotopedia.com/items/flickr-2087879492)
+* The Atlantic Ocean by milan.boers (http://www.fotopedia.com/items/flickr-3506659147)
 
 Thanks to the authors for their great job!
