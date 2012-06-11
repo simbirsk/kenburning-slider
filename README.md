@@ -9,7 +9,7 @@ Usage
 Download files.
 
 Include CSS between your <code>&lt;head&gt;&lt;/head&gt;</code> tags
-    &lt;link rel="stylesheet" href="css/kenburning.css" type="text/css" />
+    <link rel="stylesheet" href="css/kenburning.css" type="text/css" />
 
 
 Include JS just before <code>&lt;/body&gt;</code> tag
