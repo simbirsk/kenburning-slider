@@ -1,13 +1,11 @@
 KenBurning Slider
 =================
-
 A simple Ken Burns effect image slider.
 
 This plugin is under early development, there are lots of bugs in our TODO list ;)
 
 Usage
 =====
-
 Download files or clone this repository.
 
 Include CSS between your `<head></head>` tags, like this:
@@ -43,7 +41,6 @@ We're on early dev! Pull requests are really welcome.
 
 Credits
 =======
-
 Sample images were taken from http://www.fotopedia.com under Attribution 2.0 Generic (CC BY 2.0) license.
 * "Fire Hose" O Lava by Erik Charlton (http://www.fotopedia.com/items/flickr-3451379907)
 * Polar Star by wili_hybrid (http://www.fotopedia.com/items/flickr-3956249209)
@@ -51,3 +48,5 @@ Sample images were taken from http://www.fotopedia.com under Attribution 2.0 Gen
 * The Atlantic Ocean by milan.boers (http://www.fotopedia.com/items/flickr-3506659147)
 
 Thanks to the authors for their great job!
+
+By the way, Ken Burns is that guy -> http://en.wikipedia.org/wiki/Ken_burns
