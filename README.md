@@ -37,12 +37,13 @@ TODO
 ====
 We're on early dev! Pull requests are really welcome.
 * Get rid of that ugly in-line style.
+* Minify JS & CSS
 * Pass dimensions, zoom and duration via JS function (if desired).
 * BUG: apparently random image flashes sometimes...
 * Add theme support.
 * Improve smoothness on slow animations & overall performance.
 * Correct README and other texts.
-* Write something like a license.
+* License the code.
 
 Credits
 =======
