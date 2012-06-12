@@ -2,7 +2,7 @@ KenBurning Slider
 =================
 A simple Ken Burns effect image slider based on jQuery library.
 
-This plugin is under early development, there are lots of bugs in our TODO list ;)
+This plugin is under early development ;)
 
 Usage
 =====
@@ -37,7 +37,9 @@ TODO
 ====
 We're on early dev! Pull requests are really welcome.
 * Get rid of that ugly in-line style.
-* Minify JS & CSS
+* Minify JS & CSS.
+* Preload contents.
+* Add support for `div` or `ul` based markup.
 * Pass dimensions, zoom and duration via JS function (if desired).
 * BUG: apparently random image flashes sometimes...
 * Add theme support.
