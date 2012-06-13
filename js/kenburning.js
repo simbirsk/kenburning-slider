@@ -1,5 +1,5 @@
 /***
-	KenBurning Slider 0.1 by Simbirsk
+	KenBurning Slider 0.11 by Simbirsk
 	
 	Based on:
     Simple jQuery Slideshow Script
@@ -15,7 +15,7 @@ var time = 6000;
 var timeStep1 = time * 0.2;
 var timeStep2 = time * 0.8;
 
-var container = $('.kenburning');
+var container = $('#kenburning');
 var animation = "in";
 
 function kenBurning() {
@@ -59,6 +59,7 @@ function kenBurning() {
 }
 
 $(function () {
+	container.addClass('kenburning-container');
 	kenBurning();
     setInterval("kenBurning()", time);
 });

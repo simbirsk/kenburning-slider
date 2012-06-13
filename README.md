@@ -23,9 +23,9 @@ You should also include jQuery library by downloading it or by linking a CDN. It
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 ```
 
-Put your images on any container with the class `.keyburning` and in-line style for the `height`. By the moment, `<img>` tags should be directly under the container, like this:
+Put your images on any container with the ID `#keyburning` and in-line style for the `height`. By the moment, `<img>` tags should be directly under the container, like this:
 ```
-<div class="keyburning" style="350px">
+<div id="keyburning" style="350px">
   <img src="img/pic-001.jpg" alt="" />
   <img src="img/pic-002.jpg" alt="" />
   <img src="img/pic-003.jpg" alt="" />
@@ -44,6 +44,7 @@ We're on early dev! Pull requests are really welcome.
 * BUG: apparently random image flashes sometimes...
 * Add theme support.
 * Improve smoothness on slow animations & overall performance.
+* Determine jQuery version requirements.
 * Correct README and other texts.
 * License the code.
 

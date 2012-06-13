@@ -1,17 +1,17 @@
-.kenburning {
+.kenburning-container {
     position: relative;
     overflow: hidden;
 }
-.kenburning img {
+.kenburning-container img {
     position: absolute;
     max-width: none;
     top: 0;
     left: 0;
     z-index: 8;
 }
-.kenburning img.active {
+.kenburning-container img.active {
     z-index: 10;
 }
-.kenburning img.last-active {
+.kenburning-container img.last-active {
     z-index: 9;
 }
