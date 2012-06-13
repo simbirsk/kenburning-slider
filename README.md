@@ -37,7 +37,7 @@ TODO
 ====
 We're on early dev! Pull requests are really welcome.
 * Get rid of that ugly in-line style.
-* Minify JS & CSS.
+* ~~Minify JS & CSS.~~
 * Preload contents.
 * Add support for `div` or `ul` based markup.
 * Pass dimensions, zoom and duration via JS function (if desired).
