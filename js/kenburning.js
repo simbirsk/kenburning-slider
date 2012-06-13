@@ -15,17 +15,17 @@ var time = 6000;
 var timeStep1 = time * 0.2;
 var timeStep2 = time * 0.8;
 
-var container = $('#kenburning');
+var $container = $('#kenburning');
 var animation = "in";
 
 function kenBurning() {
-    var $active = container.find('img.active');
+    var $active = $container.find('img.active');
 
-    if ($active.length === 0) $active = container.find('img:last');
+    if ($active.length === 0) $active = $container.find('img:last');
 
     // use this to pull the images in the order they appear in the markup
     var $next =  $active.next().length ? $active.next()
-        : container.find('img:first');
+        : $container.find('img:first');
 
     $active.addClass('last-active').removeClass('active');
 
@@ -59,7 +59,7 @@ function kenBurning() {
 }
 
 $(function () {
-	container.addClass('kenburning-container');
+	$container.addClass('kenburning-container');
 	kenBurning();
     setInterval("kenBurning()", time);
 });
