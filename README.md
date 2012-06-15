@@ -31,8 +31,8 @@ Include jQuery library by downloading it or by linking a CDN, then the `.js` and
 <script type="text/javascript" src="js/kenburning.js"></script>
 <script type="text/javascript">
 	$("#my-container").kenBurning({
-		zoom : 20, // percentage
-		time : 6000 // miliseconds
+		zoom : 1.25, // zoom multiplier (1.25x)
+		time : 6000 // transition length (miliseconds)
 	});
 </script>
 ```

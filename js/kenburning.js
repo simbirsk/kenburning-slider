@@ -4,15 +4,15 @@
 (function ($) {
 	jQuery.fn.kenBurning = function (options) {
 		var defaults = {
-			zoom : 20,
+			zoom : 1.2,
 			time : 6000
 		},
 			settings = $.extend(defaults, options),
 
-			zoomMax = (100 + settings.zoom) + "%",
-			zoomStepIn = (100 + (settings.zoom * 0.2)) + "%",
-			zoomStepOut = (100 + (settings.zoom * 0.8)) + "%",
-
+			zoomMax = (100 * settings.zoom) + "%",
+			zoomStepIn = (((settings.zoom - 1) * 20) + 100) + "%",
+			zoomStepOut = (((settings.zoom - 1) * 80) + 100) + "%",
+			
 			timeStep1 = settings.time * 0.2,
 			timeStep2 = settings.time * 0.8,
 
