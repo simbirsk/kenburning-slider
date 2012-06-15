@@ -4,6 +4,8 @@ A simple Ken Burns effect image slider based on jQuery library.
 
 This plugin is under early development ;)
 
+Of course, feel free to pull, fork, branch, crunch, smack, rush, and all the awesome git stuff.
+
 Usage
 =====
 Download files or clone this repository.
