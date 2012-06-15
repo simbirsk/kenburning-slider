@@ -35,6 +35,8 @@ Include jQuery library by downloading it or by linking a CDN, then the `.js` and
 </script>
 ```
 
+Take a look at `demo.html` for a basic implementation sample.
+
 TODO
 ====
 We're on early dev! Pull requests are really welcome.
@@ -47,6 +49,7 @@ We're on early dev! Pull requests are really welcome.
 * Add theme support.
 * Improve smoothness on slow animations & overall performance.
 * Determine jQuery version requirements.
+* Mock up the demo.
 * Correct README and other texts.
 * License the code.
 
