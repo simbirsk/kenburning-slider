@@ -42,7 +42,7 @@ We're on early dev! Pull requests are really welcome.
 * ~~Minify JS & CSS.~~
 * Preload contents.
 * Add support for `div` or `ul` based markup.
-* ~~~Pass dimensions, zoom and duration via JS function (if desired).~~~
+* ~~Pass dimensions, zoom and duration via JS function (if desired).~~
 * BUG: apparently random image flashes sometimes...
 * Add theme support.
 * Improve smoothness on slow animations & overall performance.
