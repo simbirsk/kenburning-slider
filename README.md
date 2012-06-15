@@ -1,4 +1,4 @@
-KenBurning Slider 0.11
+KenBurning Slider 0.20
 ======================
 A simple Ken Burns effect image slider based on jQuery library.
 

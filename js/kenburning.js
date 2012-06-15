@@ -1,9 +1,5 @@
 /***
-	KenBurning Slider 0.11 by Simbirsk
-	
-	Based on:
-    Simple jQuery Slideshow Script
-    Released by Jon Raasch (jonraasch.com)
+	KenBurning Slider 0.20 by Simbirsk
 ***/
 (function ($) {
 	$.fn.kenBurning = function (options) {
