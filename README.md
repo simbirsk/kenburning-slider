@@ -54,6 +54,7 @@ We're on early dev! Pull requests are really welcome.
 * Mock up the demo.
 * Correct README and other texts.
 * License the code.
+* Add debug mode.
 
 Credits
 =======
