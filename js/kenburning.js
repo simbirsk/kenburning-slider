@@ -3,6 +3,7 @@
 ***/
 (function ($) {
 	jQuery.fn.kenBurning = function (options) {
+		// default options
 		var defaults = {
 			zoom : 1.2,
 			time : 6000
@@ -42,26 +43,35 @@
 					right	:	"auto",
 					opacity	:	0.0,
 					width	:	"100%"
-			    })
-			        .addClass('active')
-			        .animate({opacity: 1.0, width: zoomStepIn}, timeStep1, "linear")
-			        .animate({width: zoomMax}, timeStep2, "linear", function () {
-			            $active.removeClass('last-active');
-			        });
-			    animation = "out";
+			    	})
+			        .attr("src", $next.attr("src"))
+			        .load(function () {
+			        	console.log($(this).attr("src"));
+				        $(this).addClass('active')
+					        .animate({opacity: 1.0, width: zoomStepIn}, timeStep1, "linear")
+					        .animate({width: zoomMax}, timeStep2, "linear", function () {
+					        	$active.removeClass('last-active');
+			        		});
+			    	})
+			    	.clearQueue();
+			    	animation = "out";
 		    } else {
 				$next.css({
 					left : "auto",
 					right : "0",
 					opacity : 0.0,
 					width : zoomMax
-				})
-				    .addClass('active')
-				    .animate({opacity: 1.0, width: zoomStepOut}, timeStep1, "linear")
-				    .animate({width: "100%"}, timeStep2, "linear", function () {
-				        $active.removeClass('active last-active');
-				    });
-				animation = "in";
+					})
+					.attr("src", $next.attr("src")).load(function () {
+						console.log($(this).attr("src"));
+					    $(this).addClass('active')
+						    .animate({opacity: 1.0, width: zoomStepOut}, timeStep1, "linear")
+						    .animate({width: "100%"}, timeStep2, "linear", function () {
+						    	$active.removeClass('active last-active');
+				    		});
+					})
+					.clearQueue();
+					animation = "in";
 		    }
 		};
 	};
