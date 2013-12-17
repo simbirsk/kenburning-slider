@@ -17,7 +17,7 @@ Include CSS between your `<head></head>` tags, like this:
 
 Put your images on any container with any ID and in-line style for the `height`. By the moment, `<img>` tags should be directly under the container, like this:
 ```
-<div id="my-container" style="350px">
+<div id="my-container" style="height: 350px;">
   <img src="img/pic-001.jpg" alt="" />
   <img src="img/pic-002.jpg" alt="" />
   <img src="img/pic-003.jpg" alt="" />
